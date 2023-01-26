@@ -1,0 +1,75 @@
+body {
+  font-family: "Lucida Console";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-size: 2em;
+  box-sizing: border-box;
+  background: #d1a836;
+  color: #fff;
+}
+
+html {
+
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.todo-list {
+  padding-top: 10px;
+  width: 400px;
+}
+
+.todo {
+  background: #1a1917;
+  padding: 3px 10px;
+  font-size: .7em;
+  margin: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  outline-style: solid;
+}
+
+.todo-text {
+  cursor: pointer;
+  color: white;
+}
+
+.todo-completed {
+  text-decoration: line-through;
+}
+
+button {
+  border: 0;
+  border-radius: 5px;
+  outline: 0;
+  margin-right: 5px;
+  cursor: pointer;
+  color: white
+}
+
+
+
+input {
+  background: #fff;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  padding: 7px 10px;
+  font-size: .5em;
+  color: #000;
+  outline: 0;
+  border: 0;
+  flex: 1;
+}
+
+form {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
